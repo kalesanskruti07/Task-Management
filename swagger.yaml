@@ -1,0 +1,30 @@
+openapi: 3.0.0
+
+info:
+  title: Task Management REST API
+  version: 1.0.0
+  description: REST API built using Flask
+
+paths:
+
+  /api/auth/register:
+    post:
+      summary: Register a new user
+
+  /api/auth/login:
+    post:
+      summary: Login user
+
+  /api/tasks:
+    get:
+      summary: Get all tasks
+
+    post:
+      summary: Create a new task
+
+  /api/tasks/{id}:
+    put:
+      summary: Update a task
+
+    delete:
+      summary: Delete a task

@@ -1,0 +1,27 @@
+{
+    "info": {
+        "name": "Task Management REST API",
+        "_postman_id": "12345678-1234-1234-1234-123456789012",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Register User"
+        },
+        {
+            "name": "Login User"
+        },
+        {
+            "name": "Create Task"
+        },
+        {
+            "name": "Get Tasks"
+        },
+        {
+            "name": "Update Task"
+        },
+        {
+            "name": "Delete Task"
+        }
+    ]
+}
